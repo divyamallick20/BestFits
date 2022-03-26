@@ -1,0 +1,145 @@
+#title{
+  background-color: black;
+  padding-bottom:50px;
+}
+.container-fluid
+{
+  padding:3% 15%;
+}
+p{
+  font-size: 1rem;
+}
+
+/* navigation-bar */
+
+.navbar{
+  padding-bottom: 3rem;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2rem;
+  line-height: 1.5;
+}
+.nav-item
+{
+  padding:0px 20px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+
+}
+
+/* work */
+
+#work
+{
+  text-align: center;
+  padding:70px;
+  background-color:#F0A500;
+}
+
+.work-row{
+  text-align: center;
+  background-color: #E6E6E6;
+  padding:50px;
+  margin:40px 10px;
+
+}
+.work-row1{
+  text-align: center;
+  background-color: #E6E6E6;
+  padding: 37.5px;
+  margin:40px 10px 40px 20px;
+
+}
+.work-button{
+  text-align: center;
+}
+#hiit{
+  background-color: white;
+}
+.hiit-col1{
+  text-align: center;
+  line height:3rem;
+  font-size:2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding:7% 5%;
+  background-color: black;
+  color:white;
+  margin-right:0px;
+}
+.hiit-heading{
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+.hiit-img{
+  width:90%;
+  padding:20px;
+  margin-right: 0px;
+}
+.hiit-col2{
+  background-color: #FFF9F9;
+}
+.hiit-p{
+  padding-bottom: 20px;
+}
+
+#pricing{
+background-color: #F0A500;
+text-align:center;
+padding:5% 3%;
+}
+.price-col1{
+  padding: 30px;
+}
+.price-card{
+  width:100%;
+}
+@media (max-width: 992px and min-width: 768px){
+  .price-card{
+    width:40%;
+  }
+}
+
+
+.inner-div
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(https://media.istockphoto.com/photos/shirtless-man-weightlifting-picture-id957034924?k=20&m=957034924&s=612x612&w=0&h=yVQViZRVbMdTfmny8qUeQsvjXYDWHj2YED95V6Q7bKY=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:15%;
+    background-color: black;
+
+
+}
+.inner-content{
+  text-align: center;
+  padding: 3% 5%;
+  color: white;
+}
+.cta-button{
+  margin-left: 20px;
+  margin-top:40px;
+}
+.cta-header{
+  font-size:3rem;
+  font-family:'Montserrat',sans-serif;
+  line-height:1.4;
+}
+#footer{
+  padding:7% 15%;
+  text-align: center;
+  background-color:#F0A500;
+}
+.footer-icon
+{
+  padding-left: 10px;
+}
+.footer-p
+{
+  margin: 20px;
+}
